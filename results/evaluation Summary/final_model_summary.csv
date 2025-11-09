@@ -1,0 +1,2 @@
+Model,Accuracy,Precision (macro),Recall (macro),F1-score (macro)
+efficientnetb0_finetuned_v4_final.keras,0.9978035770316912,0.9695204471903501,0.991958041958042,0.9788572966693585

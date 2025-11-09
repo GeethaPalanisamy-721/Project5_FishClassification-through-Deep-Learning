@@ -1,0 +1,15 @@
+,precision,recall,f1-score,support
+animal fish,0.9980582524271845,0.9884615384615385,0.9932367149758454,520.0
+animal fish bass,0.6666666666666666,0.9230769230769231,0.7741935483870968,13.0
+fish sea_food black_sea_sprat,1.0,1.0,1.0,298.0
+fish sea_food gilt_head_bream,1.0,1.0,1.0,305.0
+fish sea_food hourse_mackerel,1.0,1.0,1.0,286.0
+fish sea_food red_mullet,1.0,1.0,1.0,291.0
+fish sea_food red_sea_bream,1.0,1.0,1.0,273.0
+fish sea_food sea_bass,1.0,1.0,1.0,327.0
+fish sea_food shrimp,1.0,1.0,1.0,289.0
+fish sea_food striped_red_mullet,1.0,1.0,1.0,293.0
+fish sea_food trout,1.0,1.0,1.0,292.0
+accuracy,0.9978035770316912,0.9978035770316912,0.9978035770316912,0.9978035770316912
+macro avg,0.9695204471903501,0.991958041958042,0.9788572966693585,3187.0
+weighted avg,0.9983234885248832,0.9978035770316912,0.9979754025467436,3187.0

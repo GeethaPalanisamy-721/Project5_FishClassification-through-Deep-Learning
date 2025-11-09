@@ -1,0 +1,53 @@
+# ----- ENVIRONMENTS -----
+.venv/
+env/
+*.env
+
+# ----- SYSTEM CACHE -----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+.DS_Store
+
+# ----- DATA -----
+/data/
+/data/*
+
+# ----- MODELS -----
+# Ignore all model files except final model
+/models/*
+!/models/efficientnetb0_finetuned_v4_final.keras
+
+# ----- RESULTS -----
+/results/confusion_matrices/
+/results/model_accuracy_comparison.png
+/results/model_f1_comparison.png
+
+# Keep only selected training history CSV files
+/results/training_history/*
+!/results/training_history/vgg16_history.csv
+!/results/training_history/resnet50_history.csv
+!/results/training_history/mobilenetv2_history.csv
+!/results/training_history/inceptionv3_history.csv
+!/results/training_history/efficientnetb0_history_20251029_1828.csv
+
+# Keep evaluation summary in CSV format
+/results/evaluation_summary/*.csv
+# Ignore any non-csv inside evaluation summary
+/results/evaluation_summary/*.txt
+
+# ----- CLASSIFICATION REPORTS -----
+/results/classification_report/*.txt
+!/results/classification_report/*.csv
+
+# ----- ARCHIVES / TEMP -----
+/src/archive/
+*.zip
+*.tar
+*.tar.gz
+
+# ----- LOGS -----
+*.log
+logs/
