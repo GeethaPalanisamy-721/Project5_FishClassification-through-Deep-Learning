@@ -40,7 +40,7 @@ Other Utilities: tqdm, Pillow, python-dotenv
   Data preprocessing → Model training → Fine-tuning → Evaluation → Deployment.
 
  Where Users Can Get Help?
- For specific questions, open a new issue with detailed descriptions.  You can reach out via email at: geethabalan96@gmail.com
+ For specific questions, open a new issue with detailed descriptions.  You can reach out via email at: geethabalan96@gmail.com, Kindly check Fish Image Clustering.pptx for reference.
 
 Who Maintains and Contributes to the Project?
 Author: Geetha Palanisamy  
